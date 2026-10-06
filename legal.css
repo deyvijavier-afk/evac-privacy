@@ -1,0 +1,20 @@
+:root { color-scheme: light; font-family: Arial, Helvetica, sans-serif; color: #232725; background: #fff; }
+* { box-sizing: border-box; }
+body { margin: 0; font-size: 17px; line-height: 1.65; letter-spacing: 0; }
+header { border-bottom: 1px solid #dce3de; padding: 24px max(20px, calc((100% - 850px) / 2)); background: #f4f7f5; }
+.brand { font-size: 23px; font-weight: 750; color: #17261d; text-decoration: none; }
+header p { margin: 2px 0 0; font-size: 14px; color: #526056; }
+main { max-width: 850px; margin: 0 auto; padding: 38px 20px 56px; }
+h1 { font-size: 32px; line-height: 1.2; margin: 0 0 12px; }
+h2 { font-size: 22px; line-height: 1.35; margin: 30px 0 10px; }
+p { margin: 10px 0; }
+a { color: #096739; text-underline-offset: 3px; overflow-wrap: anywhere; }
+a:focus-visible { outline: 3px solid #216dad; outline-offset: 4px; }
+li { margin-bottom: 8px; }
+ul, ol { padding-left: 25px; }
+.date { color: #59635d; font-size: 15px; }
+address { font-style: normal; border-left: 3px solid #2a7750; padding-left: 18px; margin: 22px 0; }
+footer { border-top: 1px solid #dce3de; padding: 24px 20px; text-align: center; font-size: 14px; color: #526056; }
+footer a { display: inline-block; margin: 4px 12px; }
+@media (max-width: 480px) { h1 { font-size: 28px; } main { padding-top: 28px; } }
+@media print { header, footer { background: none; } main { max-width: none; } a { color: inherit; } }
